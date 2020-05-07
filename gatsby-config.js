@@ -31,7 +31,7 @@ module.exports = {
                 authorsPage: true,
                 sources: {
                     local: true,
-                    // contentful: true,
+                    contentful: false,
                 },
             },
         },
@@ -49,7 +49,10 @@ module.exports = {
         },
         {
             resolve: `gatsby-plugin-netlify-cms`,
-            options: {},
+            options: {
+                htmlTitle: `IEN Blog Admin`,
+                htmlFavicon: `src/assets/favicon.png`,
+            },
         },
     ],
 };

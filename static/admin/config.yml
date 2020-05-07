@@ -18,6 +18,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     media_folder: "images"
     public_folder: "./images"
+    editor:
+      preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -27,6 +29,7 @@ collections:
           collection: "authors",
           valueField: "name",
           searchFields: ["name"],
+          default: "Kumar Anirudha"
         }
       - {
           label: "Publish Date",
@@ -41,15 +44,14 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
     label: "Authors"
-    folder: "content/authors/authors"
+    folder: "content/authors"
     create: true
     delete: true
     format: "yml"
     identifier_field: "name"
     media_folder: "avatars"
     public_folder: "./avatars"
-    editor:
-      preview: false
+    logo_url: "../../src/assets/favicon.png"
     fields:
       - { label: Name, name: name, widget: string }
       - { label: Bio, name: bio, widget: string }

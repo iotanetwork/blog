@@ -6,7 +6,7 @@
       - url: https://twitter.com/kranirudha
       - url: https://github.com/anistark
       - url: https://facebook.com/kranirudha
-  featured: true
+  slug: ani
 
 - name: Daniel De Michele
   bio: |
@@ -16,4 +16,5 @@
       - url: https://twitter.com/@carpclash
       - url: https://facebook.com/carpclash
       - url: https://www.linkedin.com/in/danieldemichele
+  slug: carp
   featured: true
