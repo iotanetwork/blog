@@ -1,4 +1,4 @@
-# IEN Blog
+# [IEN Blog](https://blog.ien.io)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/56d84c4e-fa75-4ccc-bf39-53d4d0091928/deploy-status)](https://app.netlify.com/sites/ienblog/deploys)
 
